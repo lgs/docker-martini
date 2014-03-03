@@ -1,9 +1,11 @@
 # Dockerfile for Martini/GOLANG 1.2
-# Ubuntu 13.10 (Saucy Salamander)
+# on Ubuntu 13.10 (Saucy Salamander)
 #
 # VERSION    1.0
 
+# Ubuntu image built with Debian’s tool Debootstrap
 FROM lgsd/saucy
+
 MAINTAINER Luca G. Soave <luca.soave@gmail.com>
 
 # To force the upgrade of all the next packages
